@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/18773fa624.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Lets check who wins</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div><h1 id="refresh">Refresh Me </h1></div> 
+    <div><i class="Ricon fa-solid fa-arrows-rotate" onClick=refresh()></i></div>
+    <table id="table">
+        <tr>
+            <th><h3 class="players">Player 1 </h3></th>
+            <th><h3 class="players">Player 2 </h3></th>
+        </tr>
+        <tr>
+            <td><i id="dice1" class="fa-solid fa-dice-one"></i></td>
+            <td><i  id="dice2" class="fa-solid fa-dice-one"></i></td>
+        </tr>
+    </table>
+    <div><p id="result">Lets check who Wins</p></div>
+    <script src="script.js"></script>
+</body>
+</html>
